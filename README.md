@@ -81,9 +81,9 @@ assign carry= ( (a & b)| ( cin &(a ^ b )));
 
 endmodule
 
-```
+
 FULL SUBRACTOR
-```
+
 module fs(a,b,bin,difference,borrow);
 
 input a,b,bin;
@@ -95,18 +95,18 @@ assign difference= ( (a ^ b)^bin);
 assign borrow= ( ( a & b)| ( bin & ((a ^ b ))));
 
 endmodule
-``` 
+
 
 **RTL Schematic**
 
 FULL ADDER
+![Screenshot 2024-12-21 170610](https://github.com/user-attachments/assets/8f100859-562a-46eb-b675-2876780bc3fe)
 
-![Screenshot 2024-12-21 170610](https://github.com/user-attachments/assets/54111a5d-17dd-49e1-b938-9bcf1bdb975e)
 
 
 FULL SUBRACTOR
 
-![Screenshot 2024-12-21 170617](https://github.com/user-attachments/assets/51c3db04-d8c4-427f-a4ff-96dd51295170)
+![Screenshot 2024-12-21 170617](https://github.com/user-attachments/assets/750aec4c-8c86-48e3-9533-56c426f9cb37)
 
 
 
@@ -115,13 +115,15 @@ FULL SUBRACTOR
 
 FULL ADDER
 
-![Screenshot 2024-12-21 170623](https://github.com/user-attachments/assets/077ccbb3-0a2a-4e80-a1d3-47ff266862a4)
+
+![Screenshot 2024-12-21 170623](https://github.com/user-attachments/assets/339cee42-5578-400a-a772-d941a12da098)
+
 
 
 FULL SUBRACTOR
 
 
-![Screenshot 2024-12-21 170630](https://github.com/user-attachments/assets/7c9d240a-41fc-4ff1-8240-9a3bc0b5fdd5)
+![Screenshot 2024-12-21 170630](https://github.com/user-attachments/assets/748c8bd4-0393-464d-9002-e1fc637d891e)
 
 
 
